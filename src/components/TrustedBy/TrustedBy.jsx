@@ -67,7 +67,7 @@ const TrustedBy = () => {
               key={brndKy}
               src={brand.src}
               alt={brand.alt}
-              className="w-9 h-9 md:w-11 md:h-11 object-contain border-2 border-white rounded-full bg-white shadow-sm"
+              className="w-8 h-8 md:w-10 md:h-10 object-contain border border-white rounded-full bg-white shadow-sm"
             />
           ))}
         </div>
