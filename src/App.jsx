@@ -17,7 +17,7 @@ function App() {
     <>
       <div className="min-h-screen flex items-center justify-center bg-black">
         <h1 className="text-4xl font-bold text-cyan-400">
-          Tailwind v4 is finally working 
+          Tailwind v4 is finally working
         </h1>
       </div>
     </>
@@ -42,13 +42,14 @@ import axios from "axios";
 //   UserCircleIcon,
 // } from "@heroicons/react/24/outline";
 
+import { Routes, Route } from "react-router-dom";
 import { Icon } from "@iconify/react";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import TrustedBy from "./components/TrustedBy/TrustedBy";
-import Feature from "./components/Feature/Feature";
+import Footer from "./components/Footer/Footer.jsx";
+import HomePage from "./pages/HomePage/HomePage.jsx";
+import WaitlistPage from "./pages/Waitlist/Waitlist.jsx";
 
 function App() {
+  /*
   const [file, setFile] = useState(null);
   const [typedText, setTypedText] = useState("");
   const [userQuestion, setUserQuestion] = useState("");
@@ -107,18 +108,15 @@ function App() {
     } finally {
       setIsLoading(false);
     }
-  };
+  }; */
 
   return (
-    <div className="flex flex-col min-h-screen  bg-page-gradient">
-      <Navbar />
-
-      <Hero />
-
-      <TrustedBy />
-      <hr className="my-16 border-none h-px bg-hr-color" />
-
-      <Feature />
+    <div className="flex flex-col min-h-screen ">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/waitlist" element={<WaitlistPage />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
