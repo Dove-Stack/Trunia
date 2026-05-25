@@ -1,13 +1,4 @@
 
-      {/* Footer Branding */}
-      <footer className="py-12 text-center text-slate-400 text-sm">
-        <p>© 2026 DocuMind AI. Research made simple.</p>
-      </footer>
-
-
-
-
-
 
 
       {/* Interface Mockup Area */}
