@@ -1,5 +1,3 @@
-
-
 import React, { useState, useRef } from "react";
 import { Icon } from "@iconify/react";
 import { MailPng } from "../../assets/assets";
