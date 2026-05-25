@@ -109,7 +109,6 @@ const WaitlistPage = () => {
             />
           </svg>
 
-          {/* <div className="w-1.5 h-1.5 rounded-full bg-slate-300" /> */}
 
           <svg
             width="95"
@@ -137,7 +136,6 @@ const WaitlistPage = () => {
             />
           </svg>
 
-          {/* <div className="h-px flex-1 border-t border-dashed border-slate-300" /> */}
         </div>
 
         {/* HERO TEXT */}
