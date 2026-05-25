@@ -124,14 +124,6 @@ const Demo = () => {
               )}
             </div>
           </div>
-
-          {/* Security Footer */}
-          {/* <div className="mt-4 text-center">
-            <p className="text-[10px] sm:text-xs text-gray-400 flex items-center justify-center gap-1.5">
-              <Icon icon="heroicons:lock-closed-solid" className="w-3 h-3" />
-              Files are processed securely and deleted after analysis.
-            </p>
-          </div> */}
         </div>
       </div>
     </section>
