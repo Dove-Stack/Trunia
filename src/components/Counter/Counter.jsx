@@ -13,7 +13,7 @@ const Counter = () => {
       {counterData.map((counter, index) => (
         <div
           key={index}
-          className="flex flex-col gap-1 text-center min-w-[120px]"
+          className="flex flex-col gap-1 text-center min-w-30"
         >
           <h3 className="text-2xl sm:text-3xl font-medium text-brand-navy mb-0.5">
             {counter.feat}
