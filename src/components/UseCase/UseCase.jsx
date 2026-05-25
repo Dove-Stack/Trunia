@@ -70,7 +70,7 @@ const UseCase = () => {
       </div>
 
       {/* Main Content Card */}
-      <div className="bg-[#f8faff] flex items-center justify-center flex-col w-full max-w-[570px] rounded-2xl py-6 sm:py-8 px-5 sm:px-8 gap-5 border border-slate-50 shadow-xs">
+      <div className="bg-[#f8faff] flex items-center justify-center flex-col w-full max-w-142.5 rounded-2xl py-6 sm:py-8 px-5 sm:px-8 gap-5 border border-slate-50 shadow-xs">
         {/* Navy Icon Box */}
         <div className="bg-brand-navy w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center shadow-md">
           <Icon
