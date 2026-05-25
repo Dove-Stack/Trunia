@@ -1,42 +1,4 @@
-// import React from "react";
 
-// const Waitlist = () => {
-//   return (
-//     <div className="bg-brand-navy w-full py-16 sm:py-20 flex flex-col items-center justify-center px-4 sm:px-6">
-//       {/* Heading */}
-//       <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight mb-3 sm:mb-4 text-center px-2">
-//         Be among the first to use Trunia
-//       </h2>
-
-//       {/* Subtext */}
-//       <p className="text-[#9ea6c4] text-[15px] sm:text-[17px] text-center max-w-[550px] leading-relaxed mb-6 sm:mb-8 font-light px-2">
-//         Join researchers and professionals who demand verifiable answers. Early
-//         access is free.
-//       </p>
-
-//       {/* Input Group - Stacks on mobile, inline on sm+ */}
-//       <div className="w-full max-w-[480px]">
-//         <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-0 bg-transparent sm:bg-[#e2e5ed] sm:rounded-xl sm:p-1.5 sm:shadow-inner">
-//           <input
-//             type="email"
-//             placeholder="Enter your email"
-//             className="w-full sm:flex-1 bg-[#e2e5ed] sm:bg-transparent rounded-lg sm:rounded-none border-none outline-none px-4 py-3 sm:py-0 text-[#1a1f3d] placeholder-[#9ca3b8] text-sm"
-//           />
-//           <button className="w-full sm:w-auto bg-brand-navy sm:bg-brand-navy text-white px-7 py-3 rounded-lg text-sm font-medium border border-white/20 sm:border-none hover:bg-[#1a1f4a] transition-colors duration-300 cursor-pointer">
-//             Join Waitlist
-//           </button>
-//         </div>
-
-//         {/* Disclaimer */}
-//         <p className="text-center text-[#5c6488] text-[12px] sm:text-[13px] mt-4 font-light">
-//           No spam. No credit card. Just early access.
-//         </p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Waitlist;
 
 import React, { useState, useRef } from "react";
 import { Icon } from "@iconify/react";
